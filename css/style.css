@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 
+}
+
+:root {
+    --font-color:        #ffffff;
+    --body-color:          #3f3f3f;
+    --dark-color:           #252525;
+}
+
+body {
+    background: var(--body-color) !important;
+    color: white !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+}
+
+
+header{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+section {
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    border-radius: 10px;
+    width: 30rem;
+
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+    display:flexbox;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align:start;
+    margin-top: 3rem;
+    background-color: var(--dark-color);
+    padding: 1rem;
+}
+
+
+#flist {
+    width: 200px;
+    background-color: var(--body-color);
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 4rem;
+
+    
+}
+
+
+@media screen and (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+        display:flexbox
+    }
+
+    body{
+        margin-bottom: 14rem;
+
+    }
+    
+    section {
+        width: 20rem;
+        height: 15rem;
+    }
+    .time, .buttom {
+        margin-top: 3rem;
+    }
+    
+    .time{
+        font-size: 40px;
+    }
+
+    header {
+        margin-bottom: 4.6rem;
+        margin-top: 2rem;
+    }
+
+}

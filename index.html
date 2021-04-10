@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Contar</title>
+</head>
+<body>
+
+        <header>
+            <h1 >Analisando Numeros</h1>
+            <h2 id="time">Adicione um valor entre 1 e 100</h2>
+        </header>
+        
+        <section>
+
+                <div class="include">
+                    <div class="input-group mb-3">
+                        <input type="number" id="num" class="form-control" placeholder="Adicione um numero entre 1 e 100" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-primary" type="button" onclick="add()">adicionar</button>
+                        </div>
+                        <br>
+                    </div>
+                    <select name="flist" id="flist" size="6 "></select>
+                    <br><br> <button type="button" class="btn btn-primary" id="n-ver" onclick="ver()">Verificar</button>
+                     <button type="button" class="btn btn-primary" id="n-ver" onclick="limpar()">Limpar lista</button>
+                     <button type="button" class="btn btn-primary" id="n-ver" onclick="limparRes()">Limpar resultado</button>
+                </div>
+                <br>
+                <div id="n-res">
+                    
+                </div>
+
+        </section>
+
+        <footer>
+            <p>&copy; Matteus Moroni</p>
+        </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
